@@ -1,0 +1,311 @@
+.maincontainer{
+    /* padding: 10px; */
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* width: 100%; */
+}
+
+.customerreviews{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* width: 100%; */
+}
+
+h2{
+color: hsl(300, 43%, 22%);
+font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.product{
+    text-align: center;
+}
+
+.product p{
+    color: hsl(303, 10%, 53%);
+
+}
+
+.ratings{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.ratings p{
+    color:hsl(300, 43%, 22%) ;
+    font-weight: 800;
+}
+
+.Reviews{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: hsl(300, 37%, 96%);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.guru{display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: hsl(300, 37%, 96%);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.BestTech{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: hsl(300, 37%, 96%);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    margin: auto; 
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+}
+
+.cards p{
+    color: hsl(300, 24%, 96%);
+    font-size: 12px;
+}
+.cardcolton{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    width: 90%;
+    border-radius: 5px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+    /* margin-bottom: 20px; */
+}
+.colton{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.colton img{
+    border-radius: 50%;
+    width: 10%;
+    height: 30px;
+}
+
+.colton-name{
+    line-height: 0.2;
+}
+#colton-buyer{
+  color: hsl(333, 80%, 67%);
+}
+
+.colton-testimony p{
+    text-align: left;
+}
+
+.card-irene{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    width: 90%;
+    border-radius: 5px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+    /* margin-bottom: 20px; */
+}
+
+.irene{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.irene img{
+    border-radius: 50%;
+    width: 10%;
+    height: 30px;
+}
+
+.irene-name{
+    line-height: 0.2;
+}
+
+#irene-buyer{
+    color: hsl(333, 80%, 67%);
+  }
+
+.irene-testimony p{
+    text-align: left;
+}
+
+
+.card-Anne{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    width: 90%;
+    border-radius: 5px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+    /* margin-bottom: 20px; */
+}
+
+.Anne{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.Anne img{
+    border-radius: 50%;
+    width: 10%;
+    height: 30px;
+}
+
+.Anne-name{
+    line-height: 0.2;
+}
+
+#Anne-buyer{
+    color: hsl(333, 80%, 67%);
+  }
+
+.Anne-testimony p{
+    text-align: left;
+}
+
+
+@media only screen and (min-width:768px) {
+
+.customerreviews{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    /* text-align:left; */
+/* justify-content:space-between;} */
+width: 80%;
+margin: auto;
+}
+
+.product{
+    text-align: left;
+    width: 60%;
+}
+
+.ratings{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: end;
+}
+
+
+.Reviews{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* border-radius: 5px; */
+    /* padding: 10px; */
+    /* background-color: hsl(300, 37%, 96%); */
+    width: 100%;
+    /* height: 50px; */
+    /* align-items: center;
+    margin: auto;
+    margin-bottom: 10px; */
+}
+
+
+.guru{display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    /* border-radius: 3px;
+    padding: 10px;
+    background-color: hsl(300, 37%, 96%); */
+    
+    /* height: 50px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px; */
+}
+
+
+.BestTech{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    /* border-radius: 3px;
+    padding: 10px;
+    background-color: hsl(300, 37%, 96%);
+   
+    height: 50px;
+    align-items: center;
+    margin: auto; 
+    margin-bottom: 30px; */
+}
+    
+
+.cards{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+margin: auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.league-spartan-<uniquifier> {
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
